@@ -1,0 +1,93 @@
+.student-admission{
+    padding: 20px;
+    margin-top: 25px;
+}
+.admision-fieldset{
+    border: 1px solid black;
+}
+.admin-button{
+    display: flex;
+    justify-content: center;
+    background-color: #6842C2;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+}
+.submit-btn{
+    background-color: #6842C2;
+    width: 100%;
+    height: auto;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+.name-style{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.student-info-container {
+    background: #fafbfc;
+    padding: 24px 32px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    border-left: 4px solid #6842C2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+.sibling{
+    font-size: 20px;
+}
+
+.student-info-container .dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-bottom: 18px;
+    color: #222;
+}
+
+.student-info-container fieldset.admision-fieldset {
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
+
+.student-info-container legend {
+    font-size: 0.95rem;
+    color: #555;
+    padding: 0 6px;
+}
+
+.student-info-container input[type="text"],
+.student-info-container input[type="number"],
+.student-info-container input[type="date"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.student-info-container input[type="radio"] {
+    margin-right: 6px;
+    margin-left: 12px;
+}
+
+.student-info-container .previous-school {
+    margin-top: 10px;
+}
+
+.student-info-container .fname {
+    margin-bottom: 14px;
+}

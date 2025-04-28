@@ -1,0 +1,119 @@
+.student-login-container{
+    align-items: center;
+    padding: 20px;
+}
+.email-login{
+    display: flex;
+    gap: 20px;
+}
+.email{
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    outline: none;
+    width: 50%;
+    height: 50px;
+
+}
+.password{
+    outline: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    width: 50%;
+    height: 50px;
+}
+.or-login{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.btn-tag{
+    width: 50%;
+    height: 40px;
+    background-color: #6842C2;
+    color: white;
+}
+.check-box{
+    margin-top: 10px;
+}
+.down-arrow{
+    width: 50%;
+    height: 30px;
+}
+.ppl-container{
+    display: flex;
+    justify-content: space-between;
+}
+.stu{
+    width: 150px;
+    height: 190px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.stu-icon{
+    width: 100%;
+}
+.stu-icons{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #6842C2;
+    background-position: center;
+}
+.help-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.help{
+    width: 150px;
+    height: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.st-name{
+    text-align: center;
+    margin-top: 10px;
+}
+.file-color{
+    background-color: #6842C2;
+}
+.help-attractive {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(90deg, #e0e7ff 0%, #c7d2fe 100%);
+    color: #1e293b;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(60, 60, 120, 0.08);
+    transition: background 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+.help-attractive:hover {
+    background: linear-gradient(90deg, #c7d2fe 0%, #818cf8 100%);
+    box-shadow: 0 4px 16px rgba(60, 60, 120, 0.15);
+    color: #312e81;
+}
+.student-app-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f0f4ff;
+    color: #2a3a5e;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.student-app-btn:hover {
+    background-color: #dbeafe;
+}
